@@ -190,13 +190,17 @@ main.container {
   color: var(--text-light);
 }
 
-.footer a {
-  color: var(--gold);
-  text-decoration: none;
+.ig-link {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 8px;
+  color: var(--text-light);
+  transition: color 0.2s;
 }
 
-.footer a:hover {
-  text-decoration: underline;
+.ig-link:hover {
+  color: var(--gold);
 }
 
 /* ===== Responsive ===== */
